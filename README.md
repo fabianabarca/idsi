@@ -14,3 +14,61 @@ IE1003 - Temas Especiales en Ingeniería I (Introducción al Diseño de Sistemas
 | Propiedades de los sistemas de ingeniería | Guzmán Carranza | Denzel Darío | 11. Properties of Engineering Systems | `presentations/8-properties` |
 | Objetivos de diseño y necesidades | Esquivel Guadamuz | Andrés Josué | 12. Engineering Systems Design Goals and Stakeholder Needs | `presentations/9-goals` |
 | Formulación de requisitos | Ulate Jarquín | Ángeles | 15. Formulating Engineering Systems Requirements | `presentations/10-requirements` |
+
+## Ver la presentación
+
+- [Instalar Node.js](https://nodejs.org/en/download) en su computadora
+- Instalar `pnpm` (un administrador de paquetes de JavaScript). En una terminal hacer:
+```sh
+npm install -g pnpm
+```
+- Clonar el repositorio de las presentaciones con Git:
+```sh
+git clone https://github.com/fabianabarca/idsi.git
+```
+- Ingresar al directorio del proyecto
+```sh
+cd idsi/
+```
+- Instalar las dependencias de paquetes (esto creará un directorio `node_modules` con una gran cantidad de archivos necesarios para la ejecución de las presentaciones con Slidev):
+```sh
+pnpm install
+```
+- Ejecutar Slidev con la presentación asignada:
+```sh
+pnpm slidev presentations/<directorio>/slides.md
+```
+donde `<directorio>` es la carpeta con la presentación asignada, por ejemplo: `7-risk`.
+
+Con
+
+```sh
+pnpm slidev presentations/7-risk/slides.md
+```
+
+la terminal mostrará algo así como:
+
+```sh
+  ●■▲
+  Slidev  v51.5.0 
+
+  theme       @slidev/theme-default
+  css engine  unocss
+  entry       /Users/fabian/NextCloud/idsi/presentations/7-risk/slides.md
+
+  public slide show   > http://localhost:3030/
+  presenter mode      > http://localhost:3030/presenter/
+  slides overview     > http://localhost:3030/overview/
+  export slides       > http://localhost:3030/export/
+  remote control      > pass --remote to enable
+
+  shortcuts           > restart | open | edit | quit
+```
+
+y es posible visitar la presentación en el navegador en la URL http://localhost:3030/.
+
+## Editar la presentación
+
+Es necesario abrir el repositorio en su IDE (ambiente integrado de desarrollo) favorito, como VS Code, y editar el archivo `presentations/<directorio>/slides.md` asignado.
+
+Cada vez que guarde el archivo, mientras el servidor local de Slidev está ejecutándose, se actualizará automáticamente la página con la presentación en el navegador.
