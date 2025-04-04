@@ -15,6 +15,8 @@ IE1003 - Temas Especiales en Ingeniería I (Introducción al Diseño de Sistemas
 | Objetivos de diseño y necesidades | Esquivel Guadamuz | Andrés Josué | 12. Engineering Systems Design Goals and Stakeholder Needs | `presentations/9-goals` |
 | Formulación de requisitos | Ulate Jarquín | Ángeles | 15. Formulating Engineering Systems Requirements | `presentations/10-requirements` |
 
+El capítulo se refiere al libro *Handbook of Engineering Systems Design*. Esta es la principal referencia del curso. Es un libro en inglés donde están los capítulos que cada persona va a exponer en clase. En [este link](https://springerlink.proxyucr.elogim.com/referencework/10.1007/978-3-030-81159-4) es posible descargar el libro (PDF o ePUB) con las credenciales de la UCR en el SIBDI.
+
 ## Ver la presentación
 
 - [Instalar Node.js](https://nodejs.org/en/download) en su computadora
