@@ -4,7 +4,7 @@ title: Sistemas inteligentes de transporte público
 info: Introducción al Diseño de Sistemas de Ingeniería
 class: text-center
 transition: fade-out
-background: https://images.unsplash.com/photo-1637190623651-e6b10007a0b7
+background: https://images.unsplash.com/photo-1624901713295-504bf074e0df
 ---
 
 ## Introducción al Diseño de Sistemas de Ingeniería
@@ -18,75 +18,158 @@ layout: image-right
 image: https://images.unsplash.com/photo-1727522974667-572d6407d9aa
 ---
 
-**Agenda**
+```mermaid
+flowchart LR
+  TP([Transporte público])
+  TD[Tecnologías digitales]
+  TC[Telecomunicaciones]
+  AD[Análisis de datos]
+  S((\+))
+  SI((Sistemas inteligentes de transporte público))
 
-<br>
+  TP & TD & TC & AD --> S
+  S --> SI
+```
 
-<Toc text-sm minDepth="1" maxDepth="2" />
-
+---
+layout: section
 ---
 
 # Introducción
 
 ---
-layout: two-cols
-layoutClass: gap-16
----
 
-## Concepto básico
+## Importancia del transporte público
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non ornare ligula, nec posuere sem. Nam consequat ornare leo, ac consectetur tellus dapibus nec. Nulla facilisi.
-
-![Imagen de ejemplo](https://images.unsplash.com/photo-1738082956220-a1f20a8632ce)
-
-::right::
-
-## Otro concepto
-
-Nullam consectetur egestas sapien quis pulvinar. Aliquam sagittis mi eget ante condimentum, quis consectetur arcu posuere. Morbi venenatis tempus consectetur. Nam ac placerat enim.
-
-```mermaid
-sequenceDiagram
-    Alicia->>Juan: Hola Juan, ¿todo bien?
-    Juan-->>Alicia: ¡Pura vida!
-    Alicia-)Juan: ¡Nos vemos!
-
-```
+- Social
+- Económico
+- Ambiental
+- Competitividad
 
 ---
 
-# Aplicaciones
+## Características de los sistemas de transporte público
 
-```mermaid
-journey
-    title Mi día de trabajo
-    section Ir al trabajo
-      Hacer café: 5: Yo
-      Ir a la oficina: 3: Yo
-      Trabajar: 1: Yo, Gato
-    section Regresar a casa
-      Regresar: 5: Yo
-      Sentarme: 5: Yo
-```
+- Complejos
+- Sistemas sociotécnicos
 
 ---
 
-# Casos de estudio
-
-$$
-x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+## Sistemas inteligentes de transporte público (SITP)
 
 ---
 
-# Retos y tendencias
+## Sistemas de información
+
+¡No podemos usar un servicio que no conocemos!
 
 ---
 
-# Conclusiones
+## Situación actual en Costa Rica
 
-1. Esta es una lista
-2. de conclusiones o síntesis sobre
-3. la teoría presentada en las diapositivas
+- Limitada información disponible
+- Ausencia de una unidad técnica responsable a nivel de diseño
+- Atomización administrativa
 
 ---
+layout: section
+---
+
+# Arquitectura del sistema
+
+---
+
+## ARC-IT
+
+---
+
+## GTFS
+
+---
+
+## Otras referencias
+
+---
+layout: section
+---
+
+# Sistemas de información para personas usuarias
+
+---
+
+## Componentes claves
+
+1. Datos abiertos y estandarizados del servicio
+2. Medios *electrónicos* para difusión de información, incluyendo:
+   - Página web
+   - Aplicaciones móviles (propias y de terceros)
+   - Pantallas informativas
+3. Medios *impresos* para difusión de información y para promoción, incluyendo:
+   - Rotulación (*señalética*)
+   - Folletos y vallas informativas
+4. Medios de atención al cliente
+5. Sistema de identidad visual
+6. Campañas de comunicación
+7. Tecnologías de telemetría y rastreo de vehículos para información en tiempo real
+
+---
+layout: section
+---
+
+# Diseño de la arquitectura
+
+---
+
+## Dimensiones del diseño
+
+- Datos
+- Aplicaciones
+- Tecnología
+
+---
+
+## Fases del diseño
+
+Según ADM
+
+---
+layout: section
+---
+
+### Plan piloto de la Universidad de Costa Rica
+
+# *b*UCR
+
+---
+
+## Databús
+
+Diagrama tecnológico
+
+---
+
+## Infobús
+
+Diagrama tecnológico
+
+---
+layout: section
+---
+
+# Trabajo futuro
+
+---
+
+## Propuesta institucional
+
+¡Nuestro trabajo!
+
+---
+layout: section
+---
+
+# Conclusiones y recomendaciones
+
+---
+
+- El transporte público es complejo
