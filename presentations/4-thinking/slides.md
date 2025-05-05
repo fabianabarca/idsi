@@ -4,7 +4,7 @@ title: Pensamiento sistémico
 info: Introducción al Diseño de Sistemas de Ingeniería
 class: text-center
 transition: fade-out
-background: https://images.unsplash.com/photo-1637190623651-e6b10007a0b7
+background: https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=1993&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 ## Introducción al Diseño de Sistemas de Ingeniería
@@ -13,9 +13,15 @@ background: https://images.unsplash.com/photo-1637190623651-e6b10007a0b7
 
 Brandon Andrey Alfaro Herrera
 
+
+
+
+
+
+
 ---
 layout: image-right
-image: https://images.unsplash.com/photo-1727522974667-572d6407d9aa
+image: https://images.unsplash.com/photo-1606327054629-64c8b0fd6e4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 **Agenda**
@@ -24,69 +30,117 @@ image: https://images.unsplash.com/photo-1727522974667-572d6407d9aa
 
 <Toc text-sm minDepth="1" maxDepth="2" />
 
----
 
+
+
+
+---
+---
 # Introducción
 
----
-layout: two-cols
-layoutClass: gap-16
----
 
-## Concepto básico
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non ornare ligula, nec posuere sem. Nam consequat ornare leo, ac consectetur tellus dapibus nec. Nulla facilisi.
-
-![Imagen de ejemplo](https://images.unsplash.com/photo-1738082956220-a1f20a8632ce)
-
-::right::
-
-## Otro concepto
-
-Nullam consectetur egestas sapien quis pulvinar. Aliquam sagittis mi eget ante condimentum, quis consectetur arcu posuere. Morbi venenatis tempus consectetur. Nam ac placerat enim.
-
-```mermaid
-sequenceDiagram
-    Alicia->>Juan: Hola Juan, ¿todo bien?
-    Juan-->>Alicia: ¡Pura vida!
-    Alicia-)Juan: ¡Nos vemos!
-
-```
 
 ---
+---
+# Complejidad en sistemas sociotécnicos
 
-# Aplicaciones
+- Interdependencia
+- No Linealidad
+- Emergencia
+- Agentes Adaptativos
 
-```mermaid
-journey
-    title Mi día de trabajo
-    section Ir al trabajo
-      Hacer café: 5: Yo
-      Ir a la oficina: 3: Yo
-      Trabajar: 1: Yo, Gato
-    section Regresar a casa
-      Regresar: 5: Yo
-      Sentarme: 5: Yo
-```
+## Desafíos
+
+- Límites difusos
+- Incertidumbre
+
+
+
 
 ---
+---
+# Evolución del pensamiento sistémico
 
-# Casos de estudio
+- Sistemas duros (1950-60)
+- Sistemas blandos (1970-80)
+- Pensamiento crítico de sistemas (1980-90)
+- Cuarta ola (emergente)
 
-$$
-x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+
+
+
 
 ---
+---
+# Diseño dirigido por sistemas (Systems-Led Design)
 
-# Retos y tendencias
+- Principios fundamentales
+  > Holismo
+
+  > Diversidad de perspectivas
+  
+  > Iteración y experimentación
+
+- Metodologías aplicadas
+  > Gigamapping
+
+  > Puntos de apalancamiento
+
+- Diferencia frente al diseño tradicional
+
+
 
 ---
+---
+# Caso práctico: Australian Taxation Office (ATO)
 
+- Implementación del diseño sistémico
+  > Problema inicial: Diseño fragmentado
+
+  > Solución: 1. Marco de 5 principios y 2. Fases iterativas: Exploración, diagnóstico, intervención, evaluación.
+
+- Resultados y desafíos
+  > Éxitos
+
+  > Retos
+
+
+---
+---
+# Críticas y brechas
+
+- Limitaciones teóricas
+  > Ambiguidad conceptual
+
+  > Falta de evidencia empírica
+
+- Desafíos prácticos
+  > Tiempo y recursos
+
+  > Cultura organizacional
+
+- Áreas para futura investigación
+
+
+
+
+
+
+
+
+
+
+---
+---
 # Conclusiones
 
-1. Esta es una lista
-2. de conclusiones o síntesis sobre
-3. la teoría presentada en las diapositivas
 
----
+El pensamiento sistémico y el diseño dirigido por sistemas son potentes pero imperfectos. Su valor radica en:
+
+1. Enfoque adaptativo: Aceptar la incertidumbre y aprender iterativamente.
+
+2. Integración disciplinaria: Unir diseño, ingeniería y ciencias sociales.
+
+3. Ejemplos como el ATO: Demuestran que es posible aplicarlo, pero requiere cambios profundos en mentalidad y estructuras.
+
+
