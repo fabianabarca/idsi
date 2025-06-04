@@ -37,7 +37,7 @@ image: https://images.unsplash.com/photo-1542382257-80dedb725088?q=80&w=2128&aut
 ---
 
 
-# Introduccion
+# Introducción
 
 
 
@@ -138,7 +138,7 @@ title: Fundamentos Teóricos
 
 > Emergencia
 
-> Agentes Adapatativos
+> Agentes Adaptativos
 
 <div class="h-full flex items-center justify-center">
   <div class="grid grid-cols-3 gap-4 place-items-center">
@@ -160,7 +160,7 @@ class: text-center
 <div class="h-full w-full flex items-center justify-center">
   <div class="bg-white/50 p-4 rounded shadow-lg">
     <h1 class="text-4xl text-black text-center">
-     Evolucion del Pensamiento Sistémico
+     Evolución del Pensamiento Sistémico
     </h1>
   </div>
   </div>
@@ -199,7 +199,7 @@ image: https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?q=80&w=1974&
 
 - Origen
 - Enfoque
-- Critica
+- Crítica
 
 <!-- FINAL DIAPOSITIVA 12 -->
 
@@ -225,7 +225,7 @@ image: https://images.unsplash.com/photo-1735116356965-ad5b323d1af8?q=80&w=1932&
 ---
 ## Pensamiento crítico de sistemas (1980–90)  
 
-- Innovacion
+- Innovación
 - Problema
 
 <!-- FINAL DIAPOSITIVA 14 -->
@@ -246,7 +246,7 @@ image: https://plus.unsplash.com/premium_photo-1673340683562-cb8e2ed0b195?q=80&w
 layout: image-left
 image: https://images.unsplash.com/photo-1685839061205-a3ea35b7b804?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-## Sistesis Comparativa
+## Síntesis Comparativa
 
 <table class="w-full text-sm table-auto border border-gray-300 rounded-md">
   <thead class="bg-black text-white">
@@ -319,6 +319,8 @@ image: https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?q=80&w=2070&
 <!-- FINAL DIAPOSITIVA 17 -->
 
 ---
+layout: image
+image: https://images.unsplash.com/photo-1635859890085-ec8cb5466806?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 # Caso práctico: Australian Taxation Office (ATO)
 
@@ -326,7 +328,7 @@ image: https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?q=80&w=2070&
   > <span v-click>Situación Previa</span>  
   > <span v-click>Diagnóstico Sistémico</span>  
 
-- <span v-click>Intervencion sistemica (SYSTEMS-LED DESIGN)</span>  
+- <span v-click>Intervención sistemica</span>  <span v-mark.box.orange><span v-click>(SYSTEMS-LED DESIGN)</span></span>
   > <span v-click>Principios Aplicados</span>  
   > <span v-click>Componentes Clave</span>  
 
@@ -334,7 +336,7 @@ image: https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?q=80&w=2070&
   > <span v-click>Métricas de Éxito</span>  
   > <span v-click>Lecciones Clave</span>  
 
-- <span v-click>Analisis de riesgos y errores</span>  
+- <span v-click>Análisis de riesgos y errores</span>  
   > <span v-click>Problemas Enfrentados</span>  
   > <span v-click>Advertencia del ATO</span>  
 
@@ -343,45 +345,82 @@ image: https://images.unsplash.com/photo-1520257328559-2062fc7de0b3?q=80&w=2070&
 <!-- FINAL DIAPOSITIVA 18 -->
 
 ---
+layout: image
+image: https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
-# SYSTEMS-LED DESIGN en el transporte publico de CR
+
+<div style="color: black; background-color: rgba(255,255,255,0.6); padding: 1rem; border-radius: 8px; max-width: 600px;">
+
+# Caso Hipotético: Transporte público de CR
 
 - DIAGNÓSTICO SISTÉMICO (Fase 1)
 - INTERVENCIÓN SISTÉMICA (Fase 2)
 - RESULTADOS ESPERADOS (Basados en el modelo ATO)
 - LECCIONES DEL ATO APLICABLES
 
+</div>
+
 <!-- FINAL DIAPOSITIVA 19 -->
 
 ---
+layout: image
+image: https://images.unsplash.com/photo-1648942521610-68024b5d6e29?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+<div style="color: black; background-color: rgba(255,255,255,0.7); padding: 1rem; border-radius: 8px; max-width: 700px;">
+
+<h2 style="margin-top: 0;">Indicadores de Evaluación</h2>
+
+| **Indicador**             | **Situación Actual** | **Meta**     |
+|--------------------------|----------------------|--------------|
+| Tiempo promedio de viaje | 52 min               | ≤25 min      |
+| Emisiones CO₂            | 1.4 ton/año          | ↓50%         |
+| Satisfacción usuarios    | 28%                  | ≥80%         |
+
+</div>
+
+<!-- FINAL DIAPOSITIVA 20 -->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1550418290-a8d86ad674a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+---
+
 # Críticas y brechas
 
 - Limitaciones teóricas
+
   > Ambiguidad conceptual
 
   > Falta de evidencia empírica
 
 - Desafíos prácticos
+
   > Tiempo y recursos
 
   > Cultura organizacional
 
 - Áreas para futura investigación
 
-<!-- FINAL DIAPOSITIVA 20 -->
+<!-- FINAL DIAPOSITIVA 21 -->
 
 ---
+layout: image
+image: https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+<div style="color: black; background-color: rgba(255,255,255,0.6); padding: 1rem; border-radius: 8px; max-width: 600px;">
+
 # Conclusiones
 
-- Síntesis teórico-práctica
-
-- Lecciones cruzadas
-
-- Preguntas para la acción
-
+- Síntesis teórico-práctica  
+- Lecciones cruzadas  
+- Preguntas para la acción  
 - Marco para futuras aplicaciones
+
+</div>
+
+<!-- FINAL DIAPOSITIVA 22 -->
 
 ---
 layout: center
@@ -395,7 +434,11 @@ El pensamiento sistémico y el diseño dirigido por sistemas son potentes pero i
 
 2. Integración disciplinaria: Unir diseño, ingeniería y ciencias sociales.
 
+<!-- FINAL DIAPOSITIVA 23 -->
+
 ---
 layout: image
 image: https://images.unsplash.com/photo-1608389168343-ba8aa0cb3a63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
+
+<!-- FINAL DIAPOSITIVA 24 -->
