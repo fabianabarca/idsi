@@ -1,639 +1,411 @@
 ---
-# You can also start simply with 'default'
 theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+title: Complejidad técnica y social
+info: Complejidad técnica y social
 class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
----
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
 transition: fade-out
+background: https://www.dimensionia.com/wp-content/uploads/2023/07/Firefly_A_person_conversing_with_a_robot_or_a_computer__representing_the_Turing_Test__69919_cleanup-transformed.jpg 
 ---
 
-# What is Slidev?
+## Complejidad técnica y social
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
+Gabriel Antonio Cambronero Hernández
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: https://www.dimensionia.com/wp-content/uploads/2023/07/Firefly_A_person_conversing_with_a_robot_or_a_computer__representing_the_Turing_Test__69919_cleanup-transformed.jpg
+
 ---
 
-# Code
+<div class="flex items-start gap-4 bg-black-50 rounded-lg p-4 shadow-sm">
 
-Use code snippets and get the highlighting directly, and even types hover!
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="Índice Icono" class="w-12 h-12 mt-1" />
 
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
+<div class="flex-1">
+<h1 class="text-2xl font- text-black-800 mb-2">Índice de Contenidos</h1>
 
-import { computed, ref } from 'vue'
+<Toc text-base minDepth="1" maxDepth="1" class="pl-2 mt-2 border-l-2 border-black-400" />
 
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
+</div>
+</div>
 
-doubled.value = 2
-```
+---
 
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
+# 🌐 **Complejidad en Sistemas de Ingeniería**
 
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
+> **De Definiciones a Factores Clave**
 
-<!-- Footer -->
+🚀 La **complejidad** en ingeniería es un concepto desafiante de definir universalmente.  
+En su lugar, se han desarrollado aproximaciones basadas en:
 
-[Learn more](https://sli.dev/features/line-highlighting)
+> - 📝 Definiciones conceptuales
+> - 🔢 Métodos de cuantificación 
+> - 🌐 Modelos de redes
+> - 🎯 Identificación de impulsores fundamentales
 
-<!-- Inline style -->
+🎯 Más que buscar una única definición, es más práctico centrarse en los **factores que impulsan la complejidad**, como:
+
+> - 🔗 **Interconexión estructural del sistema**,  
+> - 🤖 **Autonomía y toma de decisiones en sistemas multi-agente**.
+
+💡 Estos factores explican la mayoría de los atributos típicos de los sistemas complejos, donde la **frontera entre la complejidad técnica y social suele ser difusa**.
+
+---
+layout: image-right
+image: https://www.acicatech.es/wp-content/uploads/2024/01/ACICATECH-17.gif
+---
+
+## 🔗 **Interconexión: El Corazón de la Complejidad**
+
+🌐 La interconexión es uno de los motores más poderosos de la complejidad en sistemas de ingeniería.
+
+📈 ¿Qué impulsa esta interconexión?
+
+> - 💸 **Reducción de los costos de conexión**,  
+> - 🚀 **Beneficios crecientes gracias a infraestructuras distribuidas**.
+
+🏗️ Vínculos clave dentro del sistema:
+
+> - ⚙️ **Recursos físicos** (energía, materiales),  
+> - 🗂️ **Flujo de información**,  
+> - ⚠️ **Exposición al riesgo compartido**. (COVID-19)
+
+---
+
+## 🧠 **Autonomía y Decisiones en Sistemas Multi-Nivel**
+
+📋 **¿Por qué se delegan decisiones?**
+
+> - 🌍 Por la **escala global** del sistema
+> - 🌀 Por la **complejidad intrínseca**
+> - 🌫️ Por la **incertidumbre y la imprevisibilidad**
+
+✅ **Ventajas de la delegación**:
+
+> - 🔄 Mayor capacidad de adaptación
+> - 🛡️ Mejor resiliencia frente a perturbaciones
+
+📊 Factores que amplifican la complejidad decisional:
+
+>- 👥 **Número de agentes involucrados**  
+>- 🗺️ **Distribución del poder y la autoridad**  
+>- 🎯 **Nivel de alineación estratégica**  
+>- 🔄 **Estructura y dinámica de las interacciones**
+
+⚠️ *La complejidad tiende a crecer conforme aumentan los actores y se pierde cohesión estratégica.*
+
+---
+layout: image-right
+image: https://expoantad.com.mx/admin/wp-content/uploads/2024/07/global-connection.gif
+---
+
+## 🧩 **El Desafío: Integrar Interconexión y Autonomía**
+
+🛠️ Comprender cómo la interconexión y la autonomía se entrelazan es esencial para:
+
+>- 🔄 **Intercambio eficiente de recursos**,  
+>- 🔐 **Gestión efectiva del riesgo**,  
+>- 🌪️ **Manejo de la complejidad global**.
+
+📈 El diseño de sistemas no es solo un problema de optimización puntual, sino un proceso **iterativo y secuencial**.
+
+>-🔗 A mayor **interdependencia** entre las variables ➔ mayor la complejidad estructural.
+
+🧮 **Modelo NK**: una herramienta valiosa para medir la interdependencia y explorar soluciones modulares.
+
+<br>
+
+🔑 *Identificar módulos y diseñar interfaces robustas es la clave para dominar la complejidad en sistemas grandes.*
+
+---
+
+# 🌟 **Emergencia y Controladores de la Complejidad Sociotécnica** <br>
+
+- 🔍 **¿Qué es la Emergencia?**: La **emergencia** es una característica fundamental de los sistemas complejos (**el todo es más que la suma de las partes**).
+- Desde el diseño de sistemas de ingeniería, es clave entender:
+  > - 🌱 Las propiedades de los fenómenos emergentes
+  > - 🎯 Por qué son relevantes
+  > - 🛠️ Cómo integrarlos en el análisis y diseño
+
+🌀 Definiciones habituales:  
+> La emergencia implica la formación de **patrones novedosos a nivel macro** (estructurales, funcionales o conductuales) como resultado de **interacciones dinámicas a nivel micro**.
+
+📌 Nota: *"Novedoso", "macro" y "micro" son relativos y dependen del contexto.*  
+✅ Los fenómenos emergentes pueden describirse sin importar su implementación técnica.
+
+---
+
+## 🌐 **Emergencia en Sistemas No Lineales y Multi-Agente**
+<br>
+
+🔄 **No linealidades internas**:
+  >- Ejemplos: Comodidad de automovil, metodos de pago y tarifas en taxis rojos.
+  
+👥 **Elecciones interdependientes en sistemas multi-agente**:
+  >- Ejemplos: Preferencia por otros medios de transporte UBER, bus o tren.
+
+⚙️ La emergencia en sistemas multi-agente puede analizarse con herramientas de la **teoría de juegos**:
+>- 🎲 Equilibrios múltiples
+>- 🌀 Trayectorias dinámicas
+
+💡 Un aspecto clave:  
+> **Múltiples equilibrios que se auto-refuerzan ➔ mayor complejidad y diversidad de resultados.**
+
+---
+layout: image-right
+image: https://media0.giphy.com/media/cVqt1rvfuPLthPAoor/giphy-downsized.gif?cid=2450ec307ajahivk80oi54cpysc1i5sethoq1z1ej3fqpbht&ep=v1_gifs_search&rid=giphy-downsized.gif&ct=g 
+---
+
+## 🧪 **Sistemas Sociotécnicos**
+
+- 🚀 La introducción de nuevas tecnologías puede desencadenar:
+  >- 📸 Normas culturales (ej: la "selfie")
+  >- 📢 Difusión de desinformación en redes sociales
+
+- 📈 Tipos de emergencia:
+  >- 🔄 **Estructural y funcional**: causadas por no linealidades internas.
+  >- 🔄 **Conductual**: causadas por elecciones interdependientes.
+
+- 🏗️ Ejemplos destacados:
+  >- 🏘️ Modelos de segregación urbana
+  >- 🕸️ Redes a escala libre
+
+---
+layout: image-right
+image: https://th.bing.com/th/id/R.86418032b715698a4dfa6684b50c12af?rik=BcuJsg3ps3rriQ&pid=ImgRaw&r=0
+---
+
+## 🛠️ **Sistemas de Ingeniería y la Emergencia**
+
+🔑 ¿Por qué es crucial estudiar la emergencia?  
+> La mayoría de los **requisitos a nivel de sistema** son variaciones de propiedades emergentes observables a nivel macro.
+
+👷‍♀️ Los diseñadores trabajan con **requisitos de alto nivel**, como las famosas **"ilidades"**:
+
+> - 🔄 Flexibilidad
+> - ⚙️ Adaptabilidad
+> - 🛡️ Resiliencia
+> - 🧩 Modularidad
+
+🤔 La gran pregunta:  
+> **¿Cómo ajustar los factores controlables para lograr un resultado deseado a nivel superior?**
+
+---
+layout: image-right
+image: https://static.vecteezy.com/system/resources/previews/016/278/372/original/line-icon-for-governance-vector.jpg
+---
+
+## 🎯 **Estrategias de Diseño y Gobernanza**
+
+🔬 **Emergencia por no linealidad**:
+  > - ➔ Comprender la ciencia + aplicar modelado/simulación.
+  > - 🧭 **Emergencia por decisiones en sistemas multi-agente**: Pasar de control/optimización a la **gobernanza del sistema**.
+
+🌍 La **gobernanza del sistema**:
+> - Está alineada con la tercera generación del pensamiento sistémico (perspectiva de diseño).
+> - Propone reemplazar el término clásico de "control" por "gobernanza", especialmente en sistemas de ingeniería complejos.
+
+---
+layout: image-right
+image: https://th.bing.com/th/id/R.85673db926d07d434a7f4383b667edd4?rik=Lm46np%2fLK3WQWQ&pid=ImgRaw&r=0 
+---
+
+# 🛠️ **Gestión de la Complejidad en Sistemas de Ingeniería**
+
+- 🎯 **Objetivo Principal**: 
+❗ No se trata de **eliminar** la complejidad, sino de **mantenerla en un nivel adecuado** según el entorno.
+
+🚀 **Impulsores Clave**
+
+> - 👥 Stakeholders (Partes Interesadas)
+> - 📈 Mercado
+> - 🤖 Tecnología
+
+👉 El diseño debe alinearse con las tendencias y exigencias externas.
+
+---
+layout: image-right
+image: https://media0.giphy.com/media/u7D5EyS2EFlpC/giphy.gif
+---
+
+🔻 **Sub-complejidad**:
+  > - El sistema no logra gestionar la complejidad externa
+
 <style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
+p {
+  margin-bottom: 0.8 em;
 }
 </style>
 
-<!--
-Notes can also sync with clicks
 
-[click] This will be highlighted after the first click
+🔺 **Sobre-complejidad**:
+  > - Ineficiencia y sobrecarga innecesaria
 
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
+<style>
+p {
+  margin-bottom: 0.8 em;
 }
-```
+</style>
 
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
+🛠️ **Mecanismos Comunes para Gestionar la Complejidad**
+
+🏗️ **Arquitectura**:
+  > - Modularidad
+  > - Plataformas multi-laterales
+
+<style>
+p {
+  margin-bottom: 0.5 em;
 }
-```
+</style>
 
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
+🤖 **Inteligencia Artificial**:
+  > - Dinámica
+  > - Descentralizada
 
 ---
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
+layout: image-right
+image: https://static.wixstatic.com/media/1524b3_f37b4cc86f1b4beab56e5c2dca8a52ef~mv2.gif
 ---
 
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
+## 📐 **La Ley de Variedad Requisita (Ashby)**
 
 <br>
 
-<v-click>
+> **"Solo la variedad puede absorber variedad."**
 
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
+🔑 Principios:
 
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
+- La **complejidad interna** debe igualar la complejidad del entorno para ser efectiva.
+- Incrementos en complejidad interna responden a:
+  >- 🌍 Variabilidad espacial
+  >- ⏳ Cambios temporales
+  >- 🎲 Incertidumbre del entorno
 
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
 
 ---
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
+layout: image-right
+image: https://4.bp.blogspot.com/-hsu64pO05UE/W9Y_p25popI/AAAAAAAAH7s/zVs8GTIbjNcB3zDnoP52sYlt9J8IpsiPwCLcBGAs/s1600/HERBERT%2BA.%2BSIMON.jpg 
 ---
 
-# LaTeX
+## 🏗️ **Gestión mediante Arquitectura**
 
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
+🧩 **Arquitectura del Sistema**
 
-<div h-3 />
+>- 🔹 Descomposición
+>- 🔹 Mapeo función-forma
+>- 🔹 Conexiones internas
 
-Inline $\sqrt{3x-1}+(1+x)^2$
+🛠️ **Modularidad**
 
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
+  > - Divide el sistema en módulos con interfaces estándar
+  > - Flexibilidad
+  > - Reutilización
+  > - Innovación más rápida
 
-[Learn more](https://sli.dev/features/latex)
+📚 **Herbert Simon**:  
+  > "La modularidad es un mecanismo universal de gestión de la complejidad."
 
 ---
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 703,39,138,_,-52
+layout: image-right
+image: https://th.bing.com/th/id/R.3c769f9f35741f1e265be0f03bf324c5?rik=grMxk3vkPl5UeA&pid=ImgRaw&r=0
 ---
 
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
+## 🌐 **Plataformas Multi-Laterales**
 <br>
 
-###### Directive Usage
+- 🛠️ Ecosistemas diseñados para permitir innovación externa.
+- 🚀 Beneficios:
+  > - Alta escalabilidad
+  > - Gran flexibilidad
+  > - Balance entre control y apertura
 
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
+## 🗺️ **Gobernanza**
 
-<br>
+Define aspectos críticos como:
 
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="590,212,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="302,505,487,-214" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
+> - ⚖️ Derechos y responsabilidades
+> - 🛡️ Mecanismos de control
+> - 📏 Límites de participación y operación
 
 ---
 
-# Monaco Editor
+# 🏛️ **Gestión de la Complejidad a Través de la Gobernanza**
 
-Slidev provides built-in Monaco Editor support.
+## 🔍 **¿Qué es la Gobernanza?**
 
-Add `{monaco}` to the code block to turn it into an editor:
+> Estudiada en múltiples dominios:  
+> - 🌐 Infraestructura  
+> - 🏙️ Ciudades inteligentes 
+> - 💡 Ecosistemas tecnológicos
 
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
+✅ **Punto Clave:**  
+👉 La **integración entre sistema y gobernanza** debe pensarse desde la fase de diseño.
 
-const arr = ref(emptyArray(10))
-```
+## 🔗 **Elementos Clave de la Gobernanza**
 
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+> - 🎯 Incentivos + arquitectura técnica
+> - ⚙️ Ajuste de autonomía + datos dinámicos
+> - 🔄 Gobernanza = *feedforward + feedback*  (💥 Control ascendente y descendente)
+> - 🕸️ Uso estratégico de: Redes y Modularidad
 
 ---
-layout: center
-class: text-center
+layout: image-right
+image: https://static.wixstatic.com/media/a0110c_534960007936426387c55eacc362eace~mv2.gif
 ---
 
-# Learn More
+## 🤖 **Gestión de la Complejidad e Inteligencia Artificial**
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+🚀 **La IA como Potenciador de Complejidad**
 
-<PoweredBySlidev mt-10 />
+> - La IA (por ejemplo, agentes **DRL** - *Deep Reinforcement Learning*)  
+  > ➡️ Incrementa la complejidad al **descentralizar las decisiones**.
+
+<style>
+p {
+  margin-bottom: 1.0 em;
+}
+</style>
+
+🌱 **Impacto y Mejoras**
+
+> - 🏗️ **Arquitectura**:  Transforma los sistemas en **estructuras dinámicas**.
+> - 🧭 **Gobernanza**: Actúa como guía para el **comportamiento colectivo**.
+> - ⚙️ **Plataformas**: Permiten **interacciones eficientes** y adaptativas.
+
+---
+background: linear-gradient(135deg, #1e3a8a, #0f172a)
+---
+
+<div class="rounded-2xl shadow-lg p-8 bg-black/60 backdrop-blur-sm space-y-3 text-white relative">
+
+  <!-- Sticker decorativo esquina -->
+  <img src="https://cdn-icons-png.flaticon.com/512/535/535137.png" alt="Decoración" class="w-14 h-14 absolute top-4 right-4 opacity-80" />
+
+  <h2 class="text-3xl font-extrabold flex items-center gap-3 text-indigo-300">
+    🧭 Observaciones Finales y Direcciones Futuras
+  </h2>
+
+  <ul class="list-disc pl-6 space-y-3 text-lg leading-relaxed">
+    <li>
+      La <strong>complejidad</strong> emerge como un elemento <strong>central en la investigación de sistemas</strong>.
+    </li>
+    <li>
+      Es esencial <strong>identificar los impulsores clave</strong>, como la interconexión creciente y los <strong>sistemas multi-agente</strong>.
+    </li>
+    <li>
+      Un <strong>enfoque dinámico</strong> nos permite:
+      <ul class="list-disc pl-6 mt-2">
+        <li>Analizar los <em>trade-offs</em> inherentes al diseño.</li>
+        <li>Localiza puntos de apalancamiento que faciliten <em>hipótesis comprobables</em>.</li>
+      </ul>
+    </li>
+    <li>
+      Se destaca la necesidad de un <strong>diseño co-evolutivo</strong> del sistema junto con su <strong>estructura de gobernanza</strong>.
+    </li>
+    <li>
+     La <strong>gobernanza adaptativa</strong> y las <strong>plataformas tecnológicas</strong> —impulsadas por <strong>Inteligencia Artificial</strong>— serán ejes estratégicos en la gestión futura de la complejidad.
+    </li>
+  </ul>
+</div>
+
