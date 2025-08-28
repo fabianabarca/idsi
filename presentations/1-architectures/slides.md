@@ -17,8 +17,17 @@ Fabián Abarca Calderón
 layout: quote
 ---
 
-## No hay viento favorable para quien no sabe adónde va 
-*Séneca*
+## No hay viento favorable para quien no sabe adónde va
+
+_Séneca_
+
+---
+layout: quote
+---
+
+## Todos los sistemas complejos que funcionan evolucionaron a partir de sistemas más simples que funcionaron
+
+_Ley de Gall_
 
 ---
 layout: intro
@@ -43,7 +52,7 @@ image: https://images.unsplash.com/photo-1689535090647-30d91848abbf
 
 <br>
 
-***Arquitecturas de sistemas***
+**_Arquitecturas de sistemas_**
 
 - Explorar <span v-mark.red="1">definiciones</span>
 - Reflexionar sobre su <span v-mark.red="2">importancia</span>
@@ -56,6 +65,7 @@ layout: section
 ---
 
 ## Arquitecturas de sistemas
+
 # Definiciones
 
 ---
@@ -65,53 +75,57 @@ layoutClass: gap-16
 
 # Definiciones de arquitectura de sistemas
 
-Primera aproximación: *forma abstracta de la estructura del sistema*.
+Primera aproximación: _forma abstracta de la estructura del sistema_.
 
 ::left::
 
 > Las arquitecturas de sistemas muestran los **conceptos** o **propiedades** fundamentales del sistema en su **entorno**, expresado en sus **elementos**, **relaciones** y en los principios de su **diseño** y **evolución**.
-> 
-> --- *(ISO/IEC/IEEE 42010:2011)*
+>
+> --- _(ISO/IEC/IEEE 42010:2011)_
 
 <br>
 
 <div  class="grid grid-cols-2 gap-4">
-  <div >
+<div >
 
-  - conceptos
-  - propiedades
-  - entorno
-  - elementos
-  </div>
-  <div >
+- conceptos
+- propiedades
+- entorno
+- elementos
 
-  - relaciones
-  - diseño
-  - evolución
-  </div>
+</div>
+<div >
+
+- relaciones
+- diseño
+- evolución
+
+</div>
 </div>
 
 ::right::
 
 > La arquitectura de un sistema es la declaración del **concepto**, la asignación de **función** física o de información a los elementos de **forma**, y la definición de **relaciones** entre los **elementos** y con el **contexto** que los rodea.
 >
-> --- *Crawley E, Cameron B, Selva D (2016) System architecture: strategy and product development for complex systems. Pearson*
+> --- _Crawley E, Cameron B, Selva D (2016) System architecture: strategy and product development for complex systems. Pearson_
 
 <br>
 
 <div  class="grid grid-cols-2 gap-4">
-  <div >
+<div >
 
-  - concepto
-  - función
-  - forma
-  </div>
-  <div >
+- concepto
+- función
+- forma
 
-  - relaciones
-  - elementos
-  - contexto
-  </div>
+</div>
+<div >
+
+- relaciones
+- elementos
+- contexto
+
+</div>
 </div>
 
 ---
@@ -119,6 +133,7 @@ layout: section
 ---
 
 ## Arquitecturas de sistemas
+
 # Importancia
 
 ---
@@ -135,10 +150,10 @@ layout: two-cols-header
   - Definición de categorías
   - Reducción paulatina de las variables
 
-::right::  
+::right::
 
-- Aclara las alternativas: 
-  - Dónde hay que elegir entre tecnologías 
+- Aclara las alternativas:
+  - Dónde hay que elegir entre tecnologías
   - Dónde hay que innovar y crear
 - Identifica funciones específicas y diferenciadas
   - Revela interacciones entre las partes
@@ -164,7 +179,7 @@ flowchart LR
 
 ::left::
 
-### Antes (*ornitóptero*)
+### Antes (_ornitóptero_)
 
 Concentración de funciones
 
@@ -180,7 +195,7 @@ flowchart LR
 
 ::right::
 
-### Después (*aeroplano*)
+### Después (_aeroplano_)
 
 Arquitectura modular
 
@@ -203,13 +218,14 @@ layout: section
 ---
 
 ## Arquitecturas de sistemas
+
 # Desarrollo
 
 ---
 
 ## Marcos estandarizados para arquitecturas de sistemas
 
-La industria, instituciones gubernamentales y organizaciones multinacionales han creado métodos de desarrollo de arquitecturas para simplificar el proceso para las partes involucradas. Esto ha provisto: 
+La industria, instituciones gubernamentales y organizaciones multinacionales han creado métodos de desarrollo de arquitecturas para simplificar el proceso para las partes involucradas. Esto ha provisto:
 
 - Lenguaje común
 - Procesos definidos
@@ -262,9 +278,8 @@ Existe una gran variedad de estándares de desarrollo de arquitecturas, pero tod
 Pasos de mayor a menor nivel de abstracción.
 
 ---
-layout: image
-image: https://pubs.opengroup.org/architecture/archimate3-doc/images/fig-Conceptual-Model-of-an-Architecture-Description.png
-backgroundSize: contain
+layout: iframe
+url: https://www.opengroup.org/togaf
 ---
 
 ---
@@ -273,7 +288,7 @@ layout: two-cols
 
 ## ArchiMate
 
-#### *Enterprise Architecture Modeling Language*
+#### _Enterprise Architecture Modeling Language_
 
 <br>
 
@@ -294,7 +309,7 @@ layout: two-cols
 
 ## ARC-IT
 
-#### *Architecture Reference for Cooperative and Intelligent Transportation* 
+#### _Architecture Reference for Cooperative and Intelligent Transportation_
 
 <br>
 
@@ -303,25 +318,29 @@ layout: two-cols
 <br>
 
 - Departamento de Transportes, Estados Unidos
-- Definición de *paquetes de servicio*
-- Establece *flujos de información*
+- Definición de _paquetes de servicio_
+- Establece _flujos de información_
 
 ::right::
 
 ![ARC-IT](https://www.arc-it.net/images/archlayers/archlayers.jpg)
 
 ---
-layout: iframe-left
-url: https://pubs.opengroup.org/togaf-standard/adm/chap01.html
+layout: two-cols
 ---
 
-![Architecture development cycle](https://pubs.opengroup.org/togaf-standard/adm/Figures/adm.png)
+# Ciclo de desarrollo
+
+::right::
+
+![Architecture development cycle](https://www.opengroup.org/sites/default/files/ADM.png)
 
 ---
 layout: section
 ---
 
 ## Arquitecturas de sistemas
+
 # Tendencias
 
 ---
@@ -346,7 +365,7 @@ flowchart TD
 ::left::
 
 - Combinación de productos y servicios
-- Énfasis en la entrega de servicios 
+- Énfasis en la entrega de servicios
 - Perspectiva social ampliada
 - Intervenciones en sistemas existentes
 
@@ -355,7 +374,7 @@ flowchart TD
 - Límites del sistema flexibles
 - Naturaleza colaborativa (sistema de sistemas)
 - Interfaces complejas (servicios, sistemas, personas)
-- Uso de modelos de características (*features*)
+- Uso de modelos de características (_features_)
 
 ---
 layout: image
@@ -373,7 +392,7 @@ layout: section
 layout: center
 ---
 
-***Arquitecturas de sistemas***
+**_Arquitecturas de sistemas_**
 
 - Son fundamentales para la definición de sistemas duraderos y sostenibles
 - Permiten la identificación, modelado y gestión de interfaces críticas
